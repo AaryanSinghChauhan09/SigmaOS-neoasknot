@@ -3,7 +3,7 @@ name = "SigmaOS-neoasknot"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "neoasknot component"
+description = "SigmaOS neoasknot component (Arch Linux inspired)"
 upstream = []
 
 [contract]
