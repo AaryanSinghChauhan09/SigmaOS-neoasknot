@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos-neoasknot"
+name = "SigmaOS-neoasknot"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "Community contribution landing portal — SigmaOS component inspired by Arch Linux infrastructure."
+license = "Apache-2.0"
+description = "SigmaOS neoasknot component"
+
+[lib]
+name = "neoasknot"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
